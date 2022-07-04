@@ -2,7 +2,7 @@
 
 A Python implementation of Blackjack as a reinforcement learning environment. Possible actions are stick (S), hit (H), double (D), and surrender (R).
 
-A deep Q learning algorithm is used to train an agent to maximize rewards in the game. The neural network configuration can be exported as a .h5 file.
+A deep Q learning algorithm (implemented with TensorFlow and Keras) is used to train an agent to maximize rewards in the game. The neural network configuration can be exported as a .h5 file.
 
 The agent's policy is converted to a strategy table that is tested/evaluated across multiple iterations and compared to the basic strategy. 
 
